@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <style>
+        div{
+            font-size: x-large;
+        }
+        div::first-line{
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+        div::first-letter{
+            color: yellow;
+            font-size: xx-large;
+        }
+        p::before{
+            content: "how are yoy";
+            color: rgb(0, 0, 0);
+            text-shadow: 3px 3px rgb(255, 0, 200);
+            font-weight: bold;
+        }
+        p::after{
+            content: "Fine";
+            color: aqua;
+            text-shadow: 2px 3px black;
+            font-weight: bold;
+        }
+        li::marker{
+            color: deeppink;
+        }
+        ::selection{
+            color: springgreen;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto omnis commodi temporibus quod quas quae incidunt! Commodi aspernatur quidem labore earum nobis dolore cum harum! Excepturi mollitia praesentium eos at?</p>
+    </div>
+
+    <ul>
+        <li>Alone</li>
+        <li>Alone</li>
+        <li>Alone</li>
+        <li>Alone</li>
+        <li>Alone</li>
+    </ul>
+</body>
+</html>

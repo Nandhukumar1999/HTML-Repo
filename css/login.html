@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login bg</title>
+
+    <script src="https://kit.fontawesome.com/93960bc177.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+
+            background: linear-gradient(to right, rgb(91, 238, 238) 20%, rgb(95, 6, 95));
+        }
+
+
+        .d {
+            border: 2px solid rgb(250, 246, 246);
+            height: 50%;
+            width: 30%;
+            border-radius: 19px;
+
+            background-color: white;
+
+
+            margin: 150px;
+            padding-left: 20px;
+            margin-left: 430px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 20px;
+            text-align: center;
+        }
+
+
+
+        input[type="button"] {
+            height: 50px;
+            width: 400px;
+            border-radius: 20px;
+            background: linear-gradient(to right, aqua 20%, rgb(143, 8, 143));
+        }
+
+        #name {
+
+            border: none;
+            border-bottom: 2px solid grey;
+
+
+        }
+
+        #password {
+            border: none;
+            border-bottom: 2px solid grey;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    
+   
+    <div class="d">
+        <div class="d1">
+            <label for="name" name="name">User Name</label>
+
+            <br><br>
+
+
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" name="name" placeholder="Type your name">
+
+        </div>
+
+
+        <br><br>
+
+        <div class="d2">
+            <label for="password">Password</label>
+
+            <br> <br>
+
+            <i class="fa-solid fa-lock"></i>
+            <input type="text" id="password" name="password" placeholder="Type your password ">
+        </div>
+
+        <p class="f">forgot password?</p>
+
+        <br><br>
+
+
+        <input type="button" value="LOGIN">
+
+        <p class="s">signup using</p>
+
+        <br>
+
+
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAZlBMVEUYd/L///8Ab/KxyPkQdfIAcfJIivP2+/8Ac/LC1/vy9/4+h/MAbfFrmvTn8P36/P8pf/MAafGWt/eiwvmYu/i40Poje/J4p/bb5/2wy/mRtPdknPVTk/Sdvvji7f3K2/t/rPfP4ftISRhsAAAFKklEQVRogcWbbWOzKgyGkWHF6qq2Vm11bvv/f/Kgq622QBKg58ln9ZK3cBMSFpFt/L7U7ZCVgikTZTa09eV7pH+HkZ4+pMeBCc5jKcVMVmwhZcy5YLtjengTOum+hibmkhlM8rgZvrokOHqsB2HG3vG5GGps36PQRdpzLgUEnvtfct6nRSB0cSorsL2btlflCQEH0Ukdc1R7N23ncQ0OOoBOToIO/oOLEwC3o9OMu3D/jGepM/rQxqQxfjYZt7aVbkGfG7e+Xje8OTugk7by5M5WtcYRN6G70mOU18bLjoa+wJ4La5JfKOhroCb/Gb/i0W3uO782JvIWiS76oG2ejPcax/qKTobgZMUeXif6C7p4B3liv7T7BR2+t2/sHkK3byIr9vNce0Jf83eRGcuvNvTF0WsLNolDOYtF4xfEk2/ZoDun3pY8F0029G0/9FnZKETO9Vse70zopKR7T6WMlQoek9v8LZL9oUvPx36n/ckyMaDpU0woFWYQoJ+6Zmym2gp9Ju+SvDRvx5/aMa9WLzzQh4ba5PxqUV96NGseuuWBpna3ZFbpZUCvuvyOTmMi2SgBrGgR3394QScZbXYLZieb0Exmyygt6BOxu2O70DWjGT9t0UlMc2P8CJDNaCaSDbqmNVruwDOVGc3rNbqgNhrqbmur42KFJo60GECyBb2M9owuSlqjc8uZAoEWZXFHp0QX2uy90KxK7+ietqZjrbYloGW/oEfimq4Q/W1FMz7e0MSVxSpDf+/Tn125mPUL8/pik/Am+tBMTz5lSpyIu9k+ISdZrtCd/bHX9z61ZMppSYhuRn8RVWj8oyP/kEYt/5rRxP5++P+1/dL+Xw4TmqxO+IcGTVyfk1phZI2gR1OPxWrTZdGRqkN16I4qKdWuy6IdVXzr0BfqgUkNNouI7+jRH/RzS8RG8ikrDFqM7Jv8Uhg0/2aXf4W+sJq6tgKh45q15NNlGLRsGdWNBkMPLPtXMzxjREUYDl2aQx9vRiPBYmO5Dp2LJyP/it52G8s0qvCcbZ/Z2bUZ1kR2SDamOW8V2ycS+n6oNZkhFP+ztQhPBQ+KC7qAt2KBWFwu6D3oLtTigl2KC3oE+1u5FNiRuqB/QcGkHCm8fbigT6BgUtsHvGm6oOEJrjZNWCq4oGFZrqQCLJAc0PAEnwQSLAsd0AfYjypZCIthB/QvYvdQOhxcXQ7oMzzBB8zBxwENbx7zwQc87jmgtVcAG5uPe+Ah1wENbx7zIRcc7EcYGWt7cE/6O9qDAQ1RntONaS5axs0DH+AEvwU0wDCOkBurdNqsWj8BkpcwDjV4FUCRLsErasguAHoJ2VEDlSHQS6CSGP7xRz/Cs8SgtD96FZSmheK90etQPO0Cwhu9voCgXbv4orfXLqT15YveXjZFyf/Z6u0VG2W0PdHPF4uU61Q/9Ot1KiFA7IXWXCITrs690Lqrc3xI3gutTRhAp0n4oPVpEugu90CbkkOwKTHuaHNKDDIRyB1tTgRCpj+5oq3pT7ikL1e0PekLNdUc0VCqGybBzw0NJ/gh0hqd0Ji0RjiZ0wWNSuaEU1gd0MgU1gi6iiaj8Ym7EZCuTEZT0pXtSdpENDFJ25qaTkOTU9NtCfkktENCfmQuQyCg3coQImPxBRrtXnwRGUpOsGifkpNIX2iDQnsX2kS68iIEOkR50WTPRVUgOlRR1QxPP1elZFZ02FKy2aYCulxC6PAFdLMVS9mgAX0rG0Q1mIiebC6W1Ifs2PC+Ysm7dRrCAUjj1dl/avdJh41OAxsAAAAASUVORK5CYII="
+            alt="" width="50px">
+
+        <img src="data:image/png;base64,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"
+            alt="" width="80px">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbohTOefhH3OSBjx7JEH57YLbVbTGmVIpqw6y_OYAAoSE4Fcrbd95t&usqp=CAE&s"
+            alt="" width="50px">
+
+        <br><br><br><br>
+
+        OR sign up using
+
+        <br><br>
+        <b>SIGN UP</b>
+
+    </div>
+
+
+
+</body>
+
+</html>

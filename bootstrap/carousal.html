@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .btn{
+            margin-left: 120px;
+        }
+    </style>
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://wallpaperaccess.com/full/3593110.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://bd.gaadicdn.com/upload/userfiles/images/61c2d4646ecce.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://ic.maxabout.us//bikes/honda/new-honda-cbr250rr//2020-Honda-CBR250RR-4.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>HONDA CBR 250RR</h2>
+                <p>Honda Motorcycles is set to make notable updates to its Indonesian portfolio as the brand has
+                    recently unveiled the 2023 CBR 250 RR and is likely to bring the 2024 CBR 250 RR-R too. While the
+                    250 RR has been around for a while, it now gets an SP version. On the other hand, the 250 RR-R could
+                    get an inline four-cylinder motor. </p>
+                    <button class="btn btn-secondary mt-5">More</button>
+            </div>
+            <div class="col">
+                <h2>Concept model</h2>
+                <p>The basis for the CBR250RR was Honda's Light Weight Super Sports Concept that was shown at the 2015
+                    Tokyo Motor Show. The concept bike had a parallel-twin engine that redlined at 14,000 rpm. Honda
+                    said that, "attention to detail in functional components give the Light Weight Super Sports Concept
+                    a quality beyond its class, indicating the design direction of Honda's next generation lightweight
+                    super sports models.</p>
+                    <button class="btn btn-secondary ">More</button>
+            </div>
+            <div class="col">
+                <h2>Racing</h2>
+                <p>As of 2017, the CBR250RR has participated in Asia Road Racing Championship at Asia Production 250cc
+                    (AP250) class. The bike produces more than 40 hp (30 kW) and weighs 135 kg (298 lb).[17] It won the
+                    championship in its debut season as well as the following year.[18] The CBR250RR has also been raced
+                    in the Indonesian Indospeed Race Series championship and Malaysia Superbike Championship.</p>
+                    <button class="btn btn-secondary ">More</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

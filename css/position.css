@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+  }
+  
+  .static {
+    position: static;
+    background-color: #FFCC00;
+    padding: 10px;
+  }
+  
+  .relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #66CC66;
+    padding: 10px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #3366CC;
+    color: white;
+    padding: 10px;
+  }
+  

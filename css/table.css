@@ -1,0 +1,25 @@
+th,td{
+    border: 2px solid greenyellow;
+    text-align: center; width: 25%;
+    padding: 25px;
+    background-position-y: bottom;
+}
+table{
+    border-collapse: collapse;
+    width:25%;
+    background-color: crimson;
+}
+/* .hukum{
+    background-color: yellow; */
+
+tbody tr:nth-child(odd){
+    background-color: aqua;
+}
+
+tbody tr:bth-child(even){
+    background-color: tomato;
+}
+
+th{
+    background-color: violet;
+}

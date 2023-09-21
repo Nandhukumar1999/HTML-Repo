@@ -1,0 +1,38 @@
+marquee {
+    background: black;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: black;
+    padding: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: -6px !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+<style>
+:host {
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: initial;
+    white-space: nowrap;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+}
+user agent stylesheet
+marquee {
+    display: inline-block;
+    width: -webkit-fill-available;
+}

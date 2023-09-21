@@ -1,0 +1,16 @@
+th, td{
+    
+    border: 3px solid red;
+    padding: 30px;
+}
+
+
+table{
+    width: 25%;
+}
+th{
+    background-color: aqua;
+}
+table tr:nth-child(4){
+    background-color: blue;
+}

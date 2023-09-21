@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://img.cartoongoodies.com/wp-content/uploads/2022/09/DknOB7YF-Green-Gold-Animation-1024x576.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    color: orangered;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template assignment 5</title>
+
+    <style>
+        body {
+            background-image: url("https://c4.wallpaperflare.com/wallpaper/809/627/607/iron-man-2-tony-stark-robert-downey-jr-iron-man-wallpaper-preview.jpg");
+            background-size: cover;
+        }
+
+        .header {
+            width: 100%;
+            height: 57px;
+            background-color: black;
+        }
+
+        .home {
+            float: right;
+            position: relative;
+            top: -40px;
+            right: 20px;
+            word-spacing: 60px;
+        }
+
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: large;
+
+        }
+
+        .content {
+
+            position: relative;
+            width: 500px;
+            height: 400px;
+            top: 130px;
+            left: 150px;
+        }
+
+        .text {
+            font-size: 60px;
+            color: white;
+
+        }
+
+        .bold {
+            margin-top: 50px;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bold;
+            background-color: red;
+            color: white;
+            letter-spacing: 2px;
+            width: 150px;
+        }
+
+        .red {
+            background-color: red;
+            height: 40px;
+            width: 200px;
+            color: aliceblue;
+            text-align: center;
+            line-height: 40px;
+            font-size: x-large;
+        }
+
+
+
+
+        .four {
+
+            position: relative;
+            float: right;
+            background-color: rgb(242, 247, 240);
+            right: 400px;
+            bottom: 90px;
+            width: 160px;
+            height: 160px;
+            transform: rotate(315deg);
+            border-radius: 10px;
+        }
+
+        .f {
+            font-size: xx-large;
+            text-align: center;
+            line-height: 160px;
+            transform: rotate(45deg);
+            font-size: 90px;
+            color: red;
+
+
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="ngo">
+            <img src="https://w0.peakpx.com/wallpaper/478/716/HD-wallpaper-n-word-letter-navy-blue-red-shadow.jpg"
+                alt="" width="40px">
+            <img src="data:image/png;base64,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"
+                alt="" width="55px">
+            <img src="data:image/png;base64,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"
+                alt="" width="55px">
+        </div>
+
+        <div class="home">
+            <a href="">Home</a>
+            <a href="">AboutUs</a>
+            <a href="">Programs</a>
+            <a href="">Education</a>
+            <a href="">Gallery</a>
+            <a href="">JoinUs</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="text">
+            Together We Can
+        </div>
+
+        <div class="bold">
+            Save Lives
+        </div>
+
+        <div class="p">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A vitae sed inventore nostrum similique
+                tenetur, pariatur veniam nihil. Ducimus necessitatibus sequi possimus repellat animi officiis. Sunt quas
+                ipsam fugit nisi?
+
+            </p>
+        </div>
+
+        <div class="red">
+            Start With a Little
+        </div>
+
+
+    </div>
+
+
+    <div class="four">
+        <div class="f">#4</div>
+    </div>
+
+
+</body>
+
+</html

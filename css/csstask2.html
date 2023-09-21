@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex web</title>
+    <script src="https://kit.fontawesome.com/93960bc177.js" crossorigin="anonymous"></script>
+    <style>
+        .img {
+            background-image: url(https://wallpaperaccess.com/full/2345095.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+
+            width: 100%;
+            height: 500px;
+
+        }
+
+        .logo {
+
+            display: flex;
+            justify-content: space-between;
+            align-content: end;
+            width: 200px;
+            position: relative;
+            top: 30px;
+            left: 600px;
+
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+          
+
+          
+
+        }
+
+        .h {
+            width: 900px;
+            height: 70px;
+            background-color: #e8f5f5;
+            justify-content: center;
+            
+
+            position: relative;
+            top: 100px;
+
+            
+        }
+
+        .f{
+          
+            position: absolute;
+            top: 15px;
+            word-spacing: 10px;
+            font-weight: bolder;
+            font-size: xx-large;
+            
+          
+        }
+        nav{
+         
+            float: right;
+            /* background-color: #d408ae; */
+            position: relative;
+            top: 30px;
+            right: 10px;
+            word-spacing: 20px;
+  
+        }
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+           
+        }
+
+        a:hover{
+            border-top:2px solid red ;
+
+        }
+
+        .la{
+            position: relative;
+            top: 190px;
+            left: 550px;
+      
+        }
+        .bold{
+            width: 300px;
+            color: beige;
+            font-size: xx-large;
+            font-weight: bolder;
+            word-spacing: 10px;
+        }
+
+        .red{
+
+            background-color: crimson;
+            width: 240px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding-left: 40px;
+            font-size: larger;
+            font-weight: bold;
+            color: beige;
+         
+
+        }
+
+        .p2{
+            color: rgb(12, 12, 12);
+            position: relative;
+            left: 15px;
+            
+        }
+
+        .our{
+           position: relative;
+           left: 500px;
+
+        }
+        .our>h2{
+            position: relative;
+            left: 90px;
+        }
+
+        .d{
+            width: 200px;
+            height: 200px;
+            
+        }
+        .div1{
+            display: flex;
+            background-color: rgb(9, 214, 180);
+            justify-content: center;
+             align-items: center; 
+            
+        }
+        .div2{
+            background-color: rgb(214, 91, 9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div3{
+            background-color: rgb(6, 92, 221);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div4{
+            background-color: rgb(9, 214, 111);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .color{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px;
+      
+        }
+
+        .our1{
+           position: relative;
+           left: 570px;
+
+        }
+        .our1>h2{
+            position: relative;
+            left: 10px;
+        }
+
+        .color1{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 30px;
+
+
+        }
+        .d1 ,.d2 ,.d3 ,.d4 ,.d5, .d6, .d7, .d8{
+            width: 200px;
+            height: 200px;
+            display: flex;
+
+        } 
+
+        .d1{
+            background-image: url(https://www.w3schools.com/css/ocean.jpg);
+     background-position: center;
+
+
+        }
+
+        
+        .d2{
+            background-image: url(https://i.pinimg.com/736x/d4/7e/9e/d47e9e4a28894bfbd416b4f53ca15b95--beautiful-sunset-beautiful-things.jpg);
+     background-position: center;
+
+        }
+
+        .d3{
+            background-image: url( https://i.pinimg.com/originals/ed/5c/7d/ed5c7db8cfe4391c8834a12b9ae48d53.jpg);
+     background-position: center;
+
+        }
+
+        .d4{
+
+            background-image: url(https://images.pling.com/cache/400x400/img/00/00/60/00/73/1606093/8c0819ba23b4fd111d6104f7735482d9a2ed469eda43d4b09fea232c7fdc02c9cbec.jpg);
+     background-position: center;
+
+        }
+
+        .d5{
+            background-image: url(https://img.freepik.com/premium-photo/mystical-night-landscape-mountains-fog-creeps-lowlands-mountains-hills-scary-mysterious-fantasy-rocks_86390-7231.jpg);
+     background-position: center;
+
+        }
+
+        .d6{
+            background-image: url(https://img.freepik.com/premium-photo/cave-with-waterfall-blue-light-bottom_948735-86122.jpg);
+     background-position: center;
+
+        }
+        .d7{
+            background-image: url(https://img.freepik.com/premium-photo/dark-cave-with-blue-glow-green-leaves_786688-2651.jpg);
+     background-position: center;
+
+        }
+
+        .d8{
+            background-image: url(https://img.freepik.com/premium-photo/man-stands-dark-cave-with-green-cave-background_901275-11893.jpg);
+     background-position: center;
+
+        }
+
+
+       
+    </style>
+
+
+</head>
+
+<body>
+    <div class="img">
+
+        <div class="logo">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #4205b4;"></i>
+
+            <i class="fa-brands fa-twitter fa-2xl" style="color: #5a78b6;"></i>
+
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #38e5e2;"></i>
+
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #d408ae;"></i>
+
+        </div>
+
+        <div class="header">
+            <div class="h">
+         
+                <div class="f">
+                    <i class="fa-solid fa-fan fa-2xl" style="color: #36d3c8;"></i>
+                    FLEX
+                </div>
+
+                <nav>
+                    <a href="">HOME</a>
+                    <a href="">SERVICE</a>
+                    <a href="">PORTPOLIO</a>
+                    <a href="">TEAM</a>
+                    <a href="">CONTACT</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="la">
+            <p class="bold"> <U>DIGITAL STUDIO</U>
+                
+            </p>
+
+            <p class="p2">LET US DESIGN YOUR WEBSITE</p>
+
+            <div class="red">RESPONSIVE WEBSITE</div>
+        </div>
+
+    </div>
+
+
+    <div class="our">
+        <h2><u>OUR SERVICES</u></h2>
+
+        LET US HELP TO CREATE PROFESSIONAL WEBSITES
+
+    </div>
+
+    <div class="color">
+
+    <div class="div1 d"> 
+        <i class="fa-solid fa-file-prescription fa-2xl" style="color: #ffffff;"></i>
+    </div>
+    <div class="div2 d">
+
+        <i class="fa-solid fa-dove fa-2xl" style="color: #f7f9fc;"></i>
+
+    </div>
+    <div class="div3 d">
+
+        <i class="fa-regular fa-building-columns fa-2xl" style="color: #fafafa;"></i>
+
+    </div>
+
+    <div class="div4 d">
+
+        <i class="fa-solid fa-flask fa-2xl" style="color: #eceff3;"></i>
+
+    </div>
+
+</div>
+
+<div class="our1">
+    <h2><u>OUR PORTFOLIO</u></h2>
+
+   WHAT WE HAVE DONE SO FAR
+
+</div> 
+
+
+<div class="color1">
+    <div class="d1 "></div>
+    <div class="d2 "></div>
+    <div class="d3 "></div>
+    <div class="d4"></div>
+    
+</div>
+
+<div class="color1">
+    <div class="d5 "></div>
+    <div class="d6"></div>
+    <div class="d7 "></div>
+    <div class="d8"></div>
+    
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow concept 2</title>
+    <style>
+
+      
+
+        .total{
+            width: 900px;
+            height: 900px;
+            background-color: aqua;
+        }
+
+        .scroll{
+            width: 700px;
+            height: 200px;
+            margin-left: 90px;
+            overflow: scroll;
+            margin-bottom: 50px;
+        }
+
+      
+
+        .x{
+            width: 600px;
+            height: 150px;
+            margin-left: 90px;
+         
+            overflow-x: hidden;
+
+            overflow-y:visible;
+            background-color: bisque;
+
+        }
+
+        .y{
+            width: 600px;
+            height: 200px;
+            margin-left: 90px;
+            margin-top:40px ;
+            background-color: chartreuse;
+            overflow: scroll;
+        
+            overflow-x: visible;
+
+            overflow-y:hidden;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="total">
+
+    <div class="scroll">
+        <center><h1>overflow</h1></center>
+        <p>The overflow property specifies what should happen if content overflows an element's box. This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+        <p>The overflow-x CSS property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content. This property may also be set by using the overflow shorthand <br>
+            overflow-x specifies what to do with the left/right edges of the content. overflow-y specifies what to do with the top/bottom edges of the content. You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.
+         </p>
+         <p>The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges
+            <br>
+            For that, you need overflow: auto , which lets a browser automatically determine if a scroll bar is needed — or not. So in short: overflow: scroll : Always show a scroll bar. overflow: auto : Show a scroll bar when needed
+        </p>
+    </div>
+
+    <div class="ox">
+    <div class="x">
+
+        <center><h1>overflow X</h1></center>
+        <p>The overflow property specifies what should happen if content overflows an element's box. This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+        <p>The overflow-x CSS property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content. This property may also be set by using the overflow shorthand <br>
+            overflow-x specifies what to do with the left/right edges of the content. overflow-y specifies what to do with the top/bottom edges of the content. You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.
+         </p>
+
+    </div>
+</div>
+    <div class="y">
+        <center><h1>overflow Y</h1></center>
+        <p>The overflow property specifies what should happen if content overflows an element's box. This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+        <p>The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges
+            <br>
+            For that, you need overflow: auto , which lets a browser automatically determine if a scroll bar is needed — or not. So in short: overflow: scroll : Always show a scroll bar. overflow: auto : Show a scroll bar when needed
+        </p>
+    </div>
+    
+
+</div>
+</body>
+</html>
